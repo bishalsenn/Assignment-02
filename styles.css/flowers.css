@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: rgb(233, 90, 8);
+  border: none;
+  width: 270px;
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: 5px 25px; */
+  color: white;
+  height: 50px;
+  text-align: center;
+}
+.orange {
+  color: rgb(233, 90, 8);
+}
+
+/* nav atyles */
+
+nav {
+  max-width: 1140px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  margin: 30px 20px;
+  align-items: center;
+  gap: 500px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+}
+nav ul li {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.shop,
+.about {
+  color: rgb(137, 135, 161);
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 120px;
+  max-width: 1140px;
+  margin: 120px 20px;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 65px;
+}
+.banner p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner-img {
+  width: 570px;
+}
+
+/* card styles */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  gap: 20px;
+}
+.cards img {
+  width: 270px;
+}
+.card {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.card p {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card-section {
+  text-align: center;
+}
+.card-section h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.card-section p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* plant shop details */
+.plant-shop-section {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  max-width: 1140px;
+  align-items: center;
+  height: 597px;
+  margin-top: 200px;
+  gap: 60px;
+}
+.shop img {
+  width: 540px;
+  height: 597px;
+}
+
+.shop-details {
+  gap: 50px;
+  
+}
+
+.shop-details h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.shop-details li {
+  font-size: 22px;
+  font-weight: 400;
+  gap: 10px;
+  margin-top: 65px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
