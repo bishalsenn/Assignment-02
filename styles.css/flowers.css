@@ -76,7 +76,7 @@ nav a {
 }
 .shop,
 .about,
-.deal-content {
+.deal-content,.left-content p {
   color: rgb(137, 135, 161);
 }
 
@@ -317,6 +317,36 @@ width: 645px;
 .subscribe-button{
   display: flex;
 }
+
+
+.main-content{
+  display: flex;
+  gap: 20px;
+  margin: 50px 90px;
+
+}
+.middle-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 30px;
+  column-gap: inherit;
+  
+}
+.main-content p{
+  gap: 10px;
+}
+.main-content a{
+  color: rgb(107, 114, 128);
+  text-decoration: none;
+  gap: 110px;
+}
+.right-content{
+  gap:30px;
+  display: grid;
+  /* width: 100%; */
+  grid-template-columns: repeat(4,1fr);
+  /* align-items; */
+}
 /* responsive  */
 /* mobile */
 @media screen and (max-width: 576px) {
@@ -373,4 +403,11 @@ width: 645px;
 }
 .overlay-2 input{
   width: 150px;
+}
+.main-content{
+  flex-direction: column;
+}
+.middle-content{
+  grid-template-columns: repeat(1,1fr);
+}
 }
